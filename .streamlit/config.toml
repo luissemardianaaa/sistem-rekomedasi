@@ -1,0 +1,8 @@
+[server]
+runOnSave = false
+
+[development]
+# Ignore changes to CSV files so the app doesn't restart and clear session_state
+watchFilesAlpha = false
+# Alternatively, use the newer way if available, but standard is often to ignore data files
+# specifically via command line or just setting runOnSave to false.
